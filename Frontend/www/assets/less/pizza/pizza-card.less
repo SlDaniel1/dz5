@@ -1,0 +1,66 @@
+.pizza-card {
+  img {
+    max-width: 250px;
+  }
+  span img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .thumbnail {
+    height: 610px;
+  }
+
+  h3 {
+    color: @mainColor;
+    background-color: lighten(@mainColor, 45%);
+  }
+
+  .label {
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 30px;
+    color: @mainColor;
+  }
+
+  .type {
+    color:darkgray;
+  }
+
+  .description {
+    font-size: 16px;
+    height: 70px;
+  }
+
+  .buy-menu {
+    text-align: center;
+  }
+
+  .buy-pizza {
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    padding: 15px;
+  }
+
+  button, button:focus {
+    background-color: @mainColor;
+    outline: none;
+    border: none;
+  }
+
+  button:hover  {
+    background-color: lighten(@mainColor, 5%);
+  }
+
+  button:active, button:active:hover {
+    background-color: darken(@mainColor, 5%);
+    outline: none;
+  }
+}
+

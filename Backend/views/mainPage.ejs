@@ -1,0 +1,28 @@
+<% include common/header.ejs %>
+
+<div class="container col-md-9 col-md-9 col-sm-8 col-xs-7">
+    
+    <div class= "introduction" style="text-align: center; padding-top: 70px;"><span class="filter-name" style="font-size: 48px;">Усі піци</span><span class="badge count" style="border-radius: 50%; margin-bottom: 15px; padding-left: 10px; padding-right: 10px; font-size: x-large; background-color: #ea862e;">8</span> </div>
+<div class="nav-menu" style="padding-top: 10px; text-align: center;">
+    <div class="row">
+        <div class="col-xl-3 col-md-3 col-sm-0 col-xs-0"></div>
+        <!-- padding-left: 5%; -->
+        <div class="nav nav-pills col-xl-6 col-md-6 col-sm-0 col-xs-0" style="padding-left: 15px;">
+            <div class="" style="text-align: center;">
+                <button class="btn-sm menu active" filter-data="all" text="Усі"><a>Усі</a></button>
+                <button class="btn-sm menu" filter-data="meat" text="М'ясні"><a>М'ясні</a></button>
+                <button class="btn-sm menu" filter-data="mushroom" text="Грибні"><a>Грибні</a></button>
+                <button class="btn-sm menu" filter-data="ocean" text="Рибні"><a>Рибні</a></button>
+                <button class="btn-sm menu" filter-data="vega" text="Вега"><a>Вега</a></button>
+            </div>  
+        </div>       
+        <div class="col-xl-3 col-md-3 col-sm-0 col-xs-0"></div>
+    </div>
+</div>
+<div class="row" id="pizza_list" style="padding-top: 60px">
+    
+</div>
+</div>
+</div>
+
+<% include common/footer.ejs %>
